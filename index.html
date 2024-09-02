@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To Do List</title>
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+	<div class="profile">
+		<h2>Profile</h2>
+		<p><strong>Nama:</strong> Zefanya Pardosi</p>
+		<p><strong>Jabatan:</strong> Software Engineer</p>
+	</div>
+	<div class="container">
+		<div class="addTask">
+			<input type="text" placeholder="Add a Task">
+			<select id="categorySelect">
+                <option value="low">Low</option>
+                <option value="medium">Medium</option>
+                <option value="high">High</option>
+            </select>
+			<button>Add</button>
+		</div>
+
+		<ol class="notCompleted">
+			<h3>TO DO</h3>
+		</ol>
+
+		<ol class="Completed">
+			<h3>DONE</h3>
+		</ol>
+
+		<button class="deleteAll">Delete All Tasks</button>
+	</div>
+
+	<script src="./script.js"></script>
+</body>
+</html>
